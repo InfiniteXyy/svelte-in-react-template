@@ -1,0 +1,43 @@
+{
+  "name": "svelte-and-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack-dev-server --content-base public",
+    "validate": "svelte-check",
+    "start": "serve ./public"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-link-svelte": "^0.0.1",
+    "tippy.js": "^6.2.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "serve": "^11.3.2",
+    "style-loader": "^2.0.0",
+    "svelte": "^3.31.0",
+    "svelte-check": "^1.1.22",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^4.6.1",
+    "taze": "^0.3.2",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
